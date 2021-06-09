@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DIOCrud.Enum;
+using DIOCrud;
 
 namespace DIOCrud.Classes
 {
@@ -14,6 +14,7 @@ namespace DIOCrud.Classes
         private string description { get; set; }
         private int year { get; set; }
         private Genre genre { get; set; }
+        public bool removed { get; set; }
 
         //methods
         public Serie(int id, string title, string description, int year, Genre genre) 
@@ -23,11 +24,16 @@ namespace DIOCrud.Classes
             this.description = description;
             this.year = year;
             this.genre = genre;
+            removed = false;
         }
 
         public int GetId() { return id; }
 
         public string GetTitle() { return title; }
+
+        public void RemoveSerie() { removed = true; }
+
+        public void UnremoveSerie() { removed = false; }
 
         public override string ToString()
         {

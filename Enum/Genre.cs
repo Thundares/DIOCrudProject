@@ -1,5 +1,5 @@
 ﻿
-namespace DIOCrud.Enum
+namespace DIOCrud
 {
     public enum Genre
     {

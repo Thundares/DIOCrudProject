@@ -13,32 +13,32 @@ namespace DIOCrud.Classes
 
         public List<Serie> ReturnList()
         {
-            throw new NotImplementedException();
+            return myList;
         }
 
         public void Delete(int id)
         {
-            throw new NotImplementedException();
+            myList[id].RemoveSerie();
         }
 
         public void Insert(Serie obj)
         {
-            throw new NotImplementedException();
+            myList.Add(obj);
         }
 
         public int NextId()
         {
-            throw new NotImplementedException();
+            return myList.Count;
         }
 
         public Serie ReturnById(int id)
         {
-            throw new NotImplementedException();
+            return myList[id];
         }
 
         public void Update(int id, Serie obj)
         {
-            throw new NotImplementedException();
+            myList[id] = obj;
         }
     }
 }

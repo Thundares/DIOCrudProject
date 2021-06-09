@@ -1,0 +1,16 @@
+C:\Users\Kenzo\Documents\My Web Sites\CSharp\Cruds\DIOCrud\DIOCrud\bin\Debug\net5.0\DIOCrud.exe
+C:\Users\Kenzo\Documents\My Web Sites\CSharp\Cruds\DIOCrud\DIOCrud\bin\Debug\net5.0\DIOCrud.deps.json
+C:\Users\Kenzo\Documents\My Web Sites\CSharp\Cruds\DIOCrud\DIOCrud\bin\Debug\net5.0\DIOCrud.runtimeconfig.json
+C:\Users\Kenzo\Documents\My Web Sites\CSharp\Cruds\DIOCrud\DIOCrud\bin\Debug\net5.0\DIOCrud.runtimeconfig.dev.json
+C:\Users\Kenzo\Documents\My Web Sites\CSharp\Cruds\DIOCrud\DIOCrud\bin\Debug\net5.0\DIOCrud.dll
+C:\Users\Kenzo\Documents\My Web Sites\CSharp\Cruds\DIOCrud\DIOCrud\bin\Debug\net5.0\ref\DIOCrud.dll
+C:\Users\Kenzo\Documents\My Web Sites\CSharp\Cruds\DIOCrud\DIOCrud\bin\Debug\net5.0\DIOCrud.pdb
+C:\Users\Kenzo\Documents\My Web Sites\CSharp\Cruds\DIOCrud\DIOCrud\obj\Debug\net5.0\DIOCrud.csprojAssemblyReference.cache
+C:\Users\Kenzo\Documents\My Web Sites\CSharp\Cruds\DIOCrud\DIOCrud\obj\Debug\net5.0\DIOCrud.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kenzo\Documents\My Web Sites\CSharp\Cruds\DIOCrud\DIOCrud\obj\Debug\net5.0\DIOCrud.AssemblyInfoInputs.cache
+C:\Users\Kenzo\Documents\My Web Sites\CSharp\Cruds\DIOCrud\DIOCrud\obj\Debug\net5.0\DIOCrud.AssemblyInfo.cs
+C:\Users\Kenzo\Documents\My Web Sites\CSharp\Cruds\DIOCrud\DIOCrud\obj\Debug\net5.0\DIOCrud.csproj.CoreCompileInputs.cache
+C:\Users\Kenzo\Documents\My Web Sites\CSharp\Cruds\DIOCrud\DIOCrud\obj\Debug\net5.0\DIOCrud.dll
+C:\Users\Kenzo\Documents\My Web Sites\CSharp\Cruds\DIOCrud\DIOCrud\obj\Debug\net5.0\ref\DIOCrud.dll
+C:\Users\Kenzo\Documents\My Web Sites\CSharp\Cruds\DIOCrud\DIOCrud\obj\Debug\net5.0\DIOCrud.pdb
+C:\Users\Kenzo\Documents\My Web Sites\CSharp\Cruds\DIOCrud\DIOCrud\obj\Debug\net5.0\DIOCrud.genruntimeconfig.cache
