@@ -86,7 +86,7 @@ namespace DIOCrud
 
             foreach (var serie in lista) 
             {
-                if(!serie.removed)
+                if(!serie.GetRemove())
                     Console.WriteLine("#ID: {0}: - {1}", serie.GetId(), serie.GetTitle());
             }
         }
@@ -146,8 +146,12 @@ namespace DIOCrud
 
         private static void DeleteSerie() 
         {
-            Console.Write("Digite o Id da serie a ser deletada: ");
-            int id = int.Parse(Console.ReadLine());
+            int id;
+            do
+            {
+                Console.Write("Digite o Id da serie a ser deletada: ");
+                id = int.Parse(Console.ReadLine());
+            } while (id >= repository.NextId());
 
             repository.Delete(id);
         }
@@ -167,8 +171,12 @@ namespace DIOCrud
         private static int ShowSerie() 
         {
             var lista = repository.ReturnList();
-            Console.Write("Digite a Id para visualizar: ");
-            int id = int.Parse(Console.ReadLine());
+            int id;
+            do
+            {
+                Console.Write("Digite a Id para visualizar: ");
+                id = int.Parse(Console.ReadLine());
+            } while (id >= repository.NextId());
             Console.WriteLine(lista[id].ToString());
 
             return id;

@@ -14,7 +14,7 @@ namespace DIOCrud.Classes
         private string description { get; set; }
         private int year { get; set; }
         private Genre genre { get; set; }
-        public bool removed { get; set; }
+        private bool removed { get; set; }
 
         //methods
         public Serie(int id, string title, string description, int year, Genre genre) 
@@ -30,6 +30,8 @@ namespace DIOCrud.Classes
         public int GetId() { return id; }
 
         public string GetTitle() { return title; }
+
+        public bool GetRemove() { return removed;  }
 
         public void RemoveSerie() { removed = true; }
 
