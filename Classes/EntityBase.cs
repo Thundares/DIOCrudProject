@@ -8,6 +8,6 @@ namespace DIOCrud.Classes
 {
     public abstract class EntityBase
     {
-        public int Id { get; set; }
+        protected int id { get; set; }
     }
 }

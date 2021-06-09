@@ -18,12 +18,16 @@ namespace DIOCrud.Classes
         //methods
         public Serie(int id, string title, string description, int year, Genre genre) 
         {
-            this.Id = id;
+            this.id = id;
             this.title = title;
             this.description = description;
             this.year = year;
             this.genre = genre;
         }
+
+        public int GetId() { return id; }
+
+        public string GetTitle() { return title; }
 
         public override string ToString()
         {
